@@ -31,6 +31,10 @@
 - Store instruction: `SW R6 11` = 01000101000010110000
 - Branch on equal instruction: `BEQ R2 R3 10` = 01010001001000001010 
 - Branch not equal instruction: `BNE R4 R3 10` = 01100011001000001010 
+
+### Procedure:
+- Run Encode_unit.exe and enter the input in the format of number of lines of code followed by instructions (each on a new line).
+- Run all.v which initiates the 5 staged pipeline process.
 	
 ## Group members: 
 - Neha Gujar 21114039
